@@ -1,0 +1,413 @@
+[
+  {
+    "name": "Long tones",
+    "category": "Tone",
+    "description": "Low to mid range, eight counts a note, tuner drone on the pitch. Watch the needle, not the clock.",
+    "minutes": 10,
+    "difficulty": 2,
+    "tempo_bpm": 60,
+    "families": []
+  },
+  {
+    "name": "Dynamic long tones",
+    "category": "Tone",
+    "description": "One note, pp to ff and back over sixteen counts. The pitch must not bend on the way.",
+    "minutes": 8,
+    "difficulty": 3,
+    "tempo_bpm": 60,
+    "families": []
+  },
+  {
+    "name": "Overtone series",
+    "category": "Tone",
+    "description": "Finger low Bb and voice up the overtone series, then match each overtone against its real fingering.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": [
+      "Saxophone"
+    ]
+  },
+  {
+    "name": "Subtone low register",
+    "category": "Tone",
+    "description": "Low D down to low Bb, as soft and warm as it goes without cracking.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": [
+      "Saxophone"
+    ]
+  },
+  {
+    "name": "Altissimo entries",
+    "category": "Tone",
+    "description": "Attack altissimo notes cold from silence, softly. Stop the moment the sound stops being reliable.",
+    "minutes": 6,
+    "difficulty": 5,
+    "tempo_bpm": null,
+    "families": [
+      "Saxophone"
+    ]
+  },
+  {
+    "name": "Harmonics",
+    "category": "Tone",
+    "description": "Finger low C and blow up the harmonic series. Keep the air speed even as the partials climb.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": [
+      "Flute"
+    ]
+  },
+  {
+    "name": "Register break crossings",
+    "category": "Tone",
+    "description": "Slur across the break both directions, throat A to B, then chromatically either side of it.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": [
+      "Clarinet"
+    ]
+  },
+  {
+    "name": "Lip slurs",
+    "category": "Tone",
+    "description": "Pedal to fifth to octave on each valve or slide position, slurred, no tongue.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": 72,
+    "families": [
+      "Brass"
+    ]
+  },
+  {
+    "name": "Breathing gym",
+    "category": "Air & Breathing",
+    "description": "In four out four, in two out six, in one out eight. No instrument, just air.",
+    "minutes": 5,
+    "difficulty": 1,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Air attacks",
+    "category": "Air & Breathing",
+    "description": "Start notes on air alone, no tongue, at pp. Teaches the air to lead the note.",
+    "minutes": 5,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Long phrase builder",
+    "category": "Air & Breathing",
+    "description": "One breath, chromatic scale as far as it reaches at 60. Add a note to the phrase each day.",
+    "minutes": 5,
+    "difficulty": 2,
+    "tempo_bpm": 60,
+    "families": []
+  },
+  {
+    "name": "Articulation grid",
+    "category": "Articulation",
+    "description": "One pitch, eighths at 100. Cycle all tongued, all slurred, two-slur-two, two-tongue-two.",
+    "minutes": 8,
+    "difficulty": 2,
+    "tempo_bpm": 100,
+    "families": []
+  },
+  {
+    "name": "Doodle tongue",
+    "category": "Articulation",
+    "description": "Doo-dle-doo-dle on one pitch, then up a scale. Straight eighths first, then swung.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 100,
+    "families": []
+  },
+  {
+    "name": "Staccato scales",
+    "category": "Articulation",
+    "description": "Major scale short and detached, with no gap in the air between notes. Start at 80.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Double tonguing",
+    "category": "Articulation",
+    "description": "Ta-ka on one pitch, slowly, until the K is indistinguishable from the T.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": [
+      "Brass",
+      "Flute"
+    ]
+  },
+  {
+    "name": "Chromatic scale, full range",
+    "category": "Technique",
+    "description": "Bottom to top and back, four articulations, start at 80 and add 4bpm per clean pass.",
+    "minutes": 10,
+    "difficulty": 2,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Finger independence",
+    "category": "Technique",
+    "description": "Trill each pair of adjacent fingers eight times through the whole range. Slow, even, relaxed.",
+    "minutes": 6,
+    "difficulty": 2,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Scales in fourths",
+    "category": "Technique",
+    "description": "Major scale in ascending fourths, one octave then two. Start at 60.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 60,
+    "families": []
+  },
+  {
+    "name": "Speed bursts",
+    "category": "Technique",
+    "description": "A four-note fragment at a tempo you cannot sustain, four repeats, then rest. Accuracy over speed.",
+    "minutes": 6,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Major scales around the circle",
+    "category": "Scales & Patterns",
+    "description": "Two octaves where the range allows, eighths at 100, all the way round the circle of fourths.",
+    "minutes": 10,
+    "difficulty": 2,
+    "tempo_bpm": 100,
+    "families": []
+  },
+  {
+    "name": "Modes of the major scale",
+    "category": "Scales & Patterns",
+    "description": "One key, all seven modes off each degree, up and down without stopping.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": 90,
+    "families": []
+  },
+  {
+    "name": "Bebop scale",
+    "category": "Scales & Patterns",
+    "description": "Dominant scale with the added natural seven, so the chord tones land on the beat.",
+    "minutes": 8,
+    "difficulty": 3,
+    "tempo_bpm": 90,
+    "families": []
+  },
+  {
+    "name": "Diminished and whole tone",
+    "category": "Scales & Patterns",
+    "description": "Both symmetrical scales from each starting note, eighths, listening for where they repeat.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Digital patterns",
+    "category": "Scales & Patterns",
+    "description": "1-2-3-5 off every degree, then 1-3-5-8 and 3-2-1-7, around the circle.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": 90,
+    "families": []
+  },
+  {
+    "name": "Subdivision ladder",
+    "category": "Rhythm & Time",
+    "description": "One pitch: quarters, eighths, triplets, sixteenths against a click at 70. Switch on the bar line.",
+    "minutes": 8,
+    "difficulty": 3,
+    "tempo_bpm": 70,
+    "families": []
+  },
+  {
+    "name": "Displaced click",
+    "category": "Rhythm & Time",
+    "description": "Metronome on two and four only, scale in eighths. Then click on beat one of alternate bars.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Swing eighths at two tempos",
+    "category": "Rhythm & Time",
+    "description": "Eighths over a click at 120, then at 180. Notice exactly where the feel has to change.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": 120,
+    "families": []
+  },
+  {
+    "name": "Sight-read an etude",
+    "category": "Etudes",
+    "description": "Something you have never played, once through without stopping. Then fix the worst two bars.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Etude at half tempo",
+    "category": "Etudes",
+    "description": "One line at half the marked tempo, played perfectly, then step the tempo up ten percent.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Lick around the circle",
+    "category": "Licks",
+    "description": "Take one lick and move it through the circle of fourths until it stops needing thought.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Lick displacement",
+    "category": "Licks",
+    "description": "One lick started on beat one, then two, three, four, then on the upbeats.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "ii-V-I guide tones",
+    "category": "ii-V-I & Progressions",
+    "description": "Only the thirds and sevenths through ii-V-I, voice-led, around the circle.",
+    "minutes": 8,
+    "difficulty": 2,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "ii-V-I arpeggios",
+    "category": "ii-V-I & Progressions",
+    "description": "Arpeggiate each chord up and down, then connect them by the nearest step instead.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": 90,
+    "families": []
+  },
+  {
+    "name": "Minor ii-V-i",
+    "category": "ii-V-I & Progressions",
+    "description": "Half-diminished to altered dominant to minor tonic, around the circle.",
+    "minutes": 10,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Rhythm changes A section",
+    "category": "ii-V-I & Progressions",
+    "description": "Just the A section changes: arpeggios first, then a line, slowly enough to hear every move.",
+    "minutes": 10,
+    "difficulty": 4,
+    "tempo_bpm": 80,
+    "families": []
+  },
+  {
+    "name": "Melody from memory",
+    "category": "Standards",
+    "description": "Play the head with no chart in front of you. Wherever you stumble is what you do not actually know.",
+    "minutes": 10,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Changes without the melody",
+    "category": "Standards",
+    "description": "Arpeggiate the changes in time with no melody, so the harmony is the thing you know.",
+    "minutes": 10,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "One-idea solo",
+    "category": "Improvisation",
+    "description": "Improvise a chorus on exactly one rhythmic idea. The constraint is what makes the ear work.",
+    "minutes": 8,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Guide-tone solo",
+    "category": "Improvisation",
+    "description": "Solo using only thirds and sevenths. Nothing else is allowed in.",
+    "minutes": 8,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Transcribe four bars",
+    "category": "Transcription",
+    "description": "Four bars of a solo by ear, no chart. Sing it accurately before you play it.",
+    "minutes": 12,
+    "difficulty": 4,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Sing then play intervals",
+    "category": "Ear Training",
+    "description": "Sing an interval, then play it and check yourself. Work outward from a second.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Find the interval by ear",
+    "category": "Ear Training",
+    "description": "Drone a note, sing a target interval above it, then find it on the horn without hunting.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Rhythm reading",
+    "category": "Reading",
+    "description": "Read rhythms on a single pitch, the hardest thing you can find, against a click.",
+    "minutes": 6,
+    "difficulty": 3,
+    "tempo_bpm": null,
+    "families": []
+  },
+  {
+    "name": "Transposition at sight",
+    "category": "Reading",
+    "description": "Read a concert-pitch line on a transposing horn, or the reverse. Slowly.",
+    "minutes": 8,
+    "difficulty": 5,
+    "tempo_bpm": null,
+    "families": []
+  }
+]
