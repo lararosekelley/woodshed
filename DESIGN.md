@@ -1,7 +1,9 @@
 # Design notes
 
 What was decided, why, and what turned out to be wrong. Written for whoever
-builds the Android flash-cards app, which may well be a future me.
+builds Woodshed, the Android practice app, which may well be a future me.
+`ANDROID_PLAN.md` is the plan that came out of these notes, and disagrees with
+them in two places.
 
 ## The parts that transfer
 

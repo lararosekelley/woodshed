@@ -1,19 +1,30 @@
-# music-practice
+# woodshed
 
-Notes and data carried out of an abandoned attempt to build jazz practice tools
-into [larakelley.com](https://github.com/lararosekelley/larakelley.com), kept for
-a dedicated Android flash-cards app.
+Notes, data, and a build plan for **Woodshed**, an Android practice app for
+horn players. Carried out of an abandoned attempt to build jazz practice tools
+into [larakelley.com](https://github.com/lararosekelley/larakelley.com).
 
-Nothing here runs. It is a design record plus two data files that took real
-effort to produce.
+Nothing here runs yet. It is a design record, a plan, and two data files that
+took real effort to produce.
 
 ## What is here
 
 | Path | What |
 | --- | --- |
 | `DESIGN.md` | The decisions worth keeping, and the traps that cost time |
+| `ANDROID_PLAN.md` | How this becomes the app: stack, domain model, build order |
 | `data/standards.json` | 201 jazz standards with composer, year, bars, meter, form, style, key |
 | `data/exercises.json` | 44 instrument-scoped practice exercises |
+
+## Credit
+
+`data/standards.json` is factual metadata scraped from
+[standardrepertoire.com](https://standardrepertoire.com), a jazz standards
+reference by **David Miller**. Only factual fields were taken — composer, year,
+bars, meter, form, style, common key — deliberately not lyrics and not chord
+charts. If any of this ships, that credit ships with it.
+
+`data/exercises.json` is original, written for this project.
 
 ## Where the code is
 
@@ -35,9 +46,9 @@ them and no web coupling.
 
 ## Still open on the site repo
 
-Issue #73, unrelated to practice: production does not detect itself as
-production, so it serves the development CSP and no HSTS. Found while working on
-this. Independent of whether any of this ever gets built.
+Issue #73, unrelated to practice: a production environment-detection bug, found
+while working on this. Details are in the issue. Independent of whether any of
+this ever gets built.
 
 Three fixes were made to shared site CSS during this work and died with the
 branches. Each stands alone if it is ever worth redoing:
