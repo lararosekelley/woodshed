@@ -75,16 +75,23 @@ assumed — but the whole premise of moving to a phone is *short, frequent,
 interruptible* practice, so the common case is exactly the broken one.
 
 **Fix: allocate by whole exercises, not by percentage.** Treat the shares as
-weights for a greedy fill. Walk phases in order; at each step pick the phase
-whose *served* minutes are furthest below its target share; take one exercise
-that fits the remaining time; repeat until nothing fits. A phase that never gets
-a slot simply doesn't appear.
+weights for a greedy fill. At each step pick the phase with the lowest ratio of
+served minutes to target minutes, breaking ties by phase order, and take one
+exercise from it that fits the remaining time. If nothing in that phase fits,
+drop the phase and continue. A phase cannot get its first slot while an earlier
+phase has none. Stop when no phase can take an exercise.
 
-This preserves the load-bearing property `DESIGN.md` identifies — short sessions
-keep warmup and fundamentals and drop from the end — because the end phases are
-the ones that lose the tie-break when time runs out. It also produces a sane
-20-minute session (one warmup, one fundamental, one tune) instead of five
-impossible slots.
+The ratio matters: measured in raw minutes short, Repertoire has the largest
+deficit at the start and would be picked first. As a ratio every phase starts at
+zero, so phase order decides, and the empty-earlier-phase rule stops a session
+from keeping its cooldown after dropping its tune. That preserves the
+load-bearing property `DESIGN.md` identifies: short sessions keep warmup and
+fundamentals and drop from the end.
+
+With the shortest exercise in each phase (5, 6, 8, 10, 6 minutes), 15 minutes
+gives warmup and fundamentals, 20 adds one vocabulary item, and a tune first
+fits at 30. A 20-minute session with a tune would need shorter repertoire
+exercises than the 10-minute minimum in the data.
 
 Below roughly 15 minutes, stop planning a session at all and hand the user card
 mode. Two products for two shapes of free time is the point of building both.
